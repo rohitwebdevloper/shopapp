@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+   width: 1200px;
+   margin: 0 auto;
+}
+body{
+    background-color: #fff;
+}
+section{
+    background-color: #dbcc8f;
+}
+
+.logo a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    padding: 30px;
+}
+nav{
+    display: flex;
+    background-color: #dbcc8f;
+}
+.main-menu{
+    margin-left: 35%;
+    display: flex;
+    padding: 15px;
+}
+.main-menu li{
+    padding-left: 30px;
+    display: inline-block;
+}
+.main-menu li a{
+    text-decoration: none;
+    justify-content: space-around;
+    color: black;
+}
+.main-menu li  span{
+  padding: 5px;
+}
+.hero{
+    display: flex;
+    padding-top: 80px;
+}
+.hero-benner{
+    padding-top:80px;
+    
+
+}
+.hero-benner a{
+    font-weight: 300;
+    padding: 2px 5px;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 2px;
+    background-color: black;
+    color: #fff;
+   
+}
+.hero-benner h3{
+    font-size: 40px;
+    font-weight: 300;
+    padding-top: 30px;
+}
+.img-box img{
+    padding-left: 2%;
+    width: 700px;
+    height: 500px;
+}
+.hero-benner  p{
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding-top: 30px;
+    font-weight: 300;
+}
+.hero-benner button{
+    background-color:  black;
+    color: #fff;
+    padding: 8px;
+}
+.flex{
+    background-color: #fff;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.flex-benner h1{
+    text-align: center;
+    color: black;
+    font-weight: 300;
+}
+.flex-benner p{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 16px;
+}
+.footer{
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer-data{
+    display: flex;
+    justify-content: space-evenly;
+}
+.data{
+    width: 250px;
+    height: auto;    
+}
+.data h4{
+    color: #fff;
+    letter-spacing: 3px;
+}
+.data ul {
+    display: grid;
+}
+.data  li{
+    color: white;
+    text-decoration: none;
+    /* display: inline; */
+    display: inline-block;
+}
+
+.data span i{
+    padding-right: 10px;
+    color: rgb(175, 175, 166);
+}
+.data span{
+    padding-left: 10px;
+}
+.card-img-top{
+    max-width: 350px;
+    height: 270px;
+}
+.card{
+       margin: 10px;
+}
+
+.my-id{
+    display: flex;
+}
+#about{
+    padding-top: 40px;
+}
+.About-box{
+   text-align: center;
+}
+.About-box h1{
+    font-size: 40px;
+    font-weight: 300;
+}
+.About-box p{
+    font-weight: 300;
+    line-height: 20px;
+}
+.About-card h3{
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-weight: 300;
+}
+.about-img{
+    display: flex;
+    justify-content: space-evenly;   
+}
+
+.image-box{     
+    text-align: center; 
+    font-weight: 300;
+    font-size: 20px;
+width: 350px;
+height: auto;
+}
+.about-img h4{
+    font-weight: 300;
+}
+.about-img h5{
+    font-weight: 300;
+}
+.image-box img{
+    border-radius: 20px;
+    width: 350px;
+    height: 200px;
+}
+.about-card{
+    display: flex;
+    justify-content: space-evenly; 
+    padding-top: 20px;
+}
+.about-card h4{
+    font-weight: 300;
+}
+.about-card h5{
+    font-weight: 300;
+}

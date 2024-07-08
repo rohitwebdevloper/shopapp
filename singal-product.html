@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" />
+    <link hsref="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <section>
+
+        <nav class="navbar navbar-expand-md ">
+            <!-- Brand -->
+            <a class="navbar-brand" href="index.html">MINISHOP</a>
+
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler bg-dark navbar-dark" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ABOUT.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shop.html">SHOP</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            category
+                        </a>
+                        <div class="dropdown-menu" id="categories">
+
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="card.html">card<sup class="count">0</sup></a>
+                    </li>
+                </ul>
+        </nav>
+
+
+
+    </section>
+
+    <div class="flex">
+        <div class="container">
+            <div class="row" style="margin-top: 5rem;">
+                <div class="col-md-4">
+                    <img src="" alt="" id="productimage" style="width: 300px;">
+                </div>
+                <div class="col-md-8">
+                    <h2 id="title"></h2>
+                    <h4 id="category-name" class="pt-2" style="color: blue"></h4>
+                    <p id="desc"></p>
+                    <h5 id="price" style="color: red;"></h5>
+                    <div id="singlecartbtn"> /
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="footer-data">
+                <div class="data">
+                    <h4>MINISHOP</h4>
+                    <li>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</li>
+                </div>
+                <div class="data">
+                    <h4>MENU</h4>
+
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Shop</li>
+                        <li>category</li>
+                    </ul>
+                </div>
+                <div class="data">
+                    <h4>HELP</h4>
+
+                    <ul>
+                        <li>shipping information<span>FAQS</span></li>
+                        <li>Return & Exange<span>contect</span></li>
+                        <li>Turm & conditioner</li>
+                        <li>Privecy & Policy</li>
+                    </ul>
+                </div>
+                <div class="data">
+                    <h4>HAVE A QUESTIONs ?</h4>
+
+                    <ul>
+                        <li><span><i class="fa fa-map-marker" aria-hidden="true"></i></span>203 Fake St. Mountain View,
+                            San Francisco, California, USA</li>
+                        <li><span><i class="fa fa-phone" aria-hidden="true"></i></span>+239247923</li>
+                        <li><span><i class="fa fa-envelope" aria-hidden="true"></i></span>rd947071@gmail.com</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
+<!-- <div id="about">
+        <div class="container">
+            <div class="About-box">
+                <h1>About Our Shop</h1>
+                <p>The Minishop Group is one of India’s leading digital commerce entities and includes group
+                    companies Myntra, Flipkart Wholesale, Flipkart Health+, and Cleartrip.
+
+                    Started in 2007, Minishop has enabled millions of sellers, merchants, and small businesses to
+                    participate in India's digital commerce revolution. With a registered customer base of more than
+                    500 million, Flipkart's marketplace offers over 150 million products across 80+ categories.
+                    Today, there are over 14 lakh sellers on the platform, including Shopsy sellers. With a focus on
+                    empowering and delighting every Indian by delivering value through technology and innovation,
+                    Flipkart has created lakhs of jobs in the ecosystem while empowering generations of
+                    entrepreneurs and MSMEs. Flipkart is known for pioneering services such as Cash on Delivery, No
+                    Cost EMI and easy returns, which are customer-centric innovations that have made online shopping
+                    more accessible and affordable for millions of Indians. </p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="About-card">
+            <h3>Meet our Leaders </h3>
+            <div class="about-img">
+                <div class="image-box">
+                    <img src="https://i.insider.com/5fb7d48150e71a00115566f6?width=700">
+                    <h4>Kalyan krishnamurthy</h4>
+                    <h5>Chief Exucative Officer, Minishop group</h5>
+                </div>
+                <div class="image-box">
+                    <img
+                        src="data:image/jpeg;base64,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">
+                    <h4>Sriram Vankataraman</h4>
+                    <h5>Chief Financial Officer, Minishop group</h5>
+                </div>
+                <div class="image-box">
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf3jtG_CCJGR7heJV2i3QXKVdXdKr4FNplKQ&s">
+                    <h4>Jayandran Venugopal</h4>
+                    <h5>Chief Product an technology officer, Minishop group</h5>
+                </div>
+            </div>
+            <div class="about-card">
+                <div class="image-box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOzwn76WpOavRxwix85fVKjwjT73-c-068Xw&s">
+                    <h4>Nandita Sinha</h4>
+                    <h5>Chief Exucutive officer, Myntra</h5>
+                </div>
+                <div class="image-box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOU1QbZevQxA-e5utRGtfKePY-xF9odDvRzA&s">
+                    <h4>Ravi Iyer</h4>
+                    <h5>Senior Vice president and Head-corporate Delopment , Minishop</h5>
+                </div>
+                <div class="image-box">
+                    <img src="data:image/jpeg;base64,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">
+                    <h4>Hemant  Badri</h4>
+                    <h5>Senior Vice president and Head of Supply Chain,Minishop Group</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="footer-data">
+                <div class="data">
+                    <h4>MINISHOP</h4>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                </div>
+                <div class="data">
+                    <h4>MENU</h4>
+                    <h3>Home</h3>
+                    <h3>About Us</h3>
+                    <h3>Shop</h3>
+                    <h3>category</h3>
+                </div>
+                <div class="data">
+                    <h4>HELP</h4>
+                    <h5>shipping information<span>FAQS</span></h5>
+                    <h5>Return & Exange<span>contect</span></h5>
+                    <h5>Turm & conditioner</h5>
+                    <h5>Privecy & Policy</h5>
+                    <h5></h5>
+                </div>
+                <div class="data">
+                    <h4>HAVE A QUESTIONs ?</h4>
+                    <h6><span><i class="fa fa-map-marker" aria-hidden="true"></i></span>203 Fake St. Mountain View, San Francisco, California, USA</h6>
+                    <h6><span><i class="fa fa-phone" aria-hidden="true"></i></span>+239247923</h6>
+                    <h6><span><i class="fa fa-envelope" aria-hidden="true"></i></span>rd947071@gmail.com</h6>
+                </div>
+            </div>
+        </div> -->
